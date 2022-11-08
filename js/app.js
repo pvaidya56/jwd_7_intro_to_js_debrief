@@ -8,11 +8,23 @@
 // If the value of myNumber is any other number print the value of myNumber to the console.
 // Reference Codecademy lessons: Introduction- Arithmetic Opertaors, Conditional Statements lessons 3, 4, 5,and 9
 
-//Write your code for GenBuzz below this line:
+//Write your code for GenBuzz below this line
 
-
-
-
+let myNumber = 5;
+if (myNumber) {
+    console.log("");
+} else if (myNumber % 3) {
+    console.log("Gen");
+}
+else if (myNumber % 5) {
+    console.log("Buzz");
+}
+else if (myNumber % 3)
+    OR; myNumber % 5; {
+    console.log("GenBuzz");
+} {
+    console.log("myNumber");
+}
 
 
 //2. E-COMMERCE ITEM LIST
@@ -29,13 +41,32 @@
 
 //Write your code for the E-Commerce item list below this line:
 
+const shoes = "Shoes are $50";
+switch (shoes)
+{
+    case "Jeans":
+    console.log("Jeans are $25");
+    break;
+
+    case "Hat":
+        console.log("Jeans are $25");
+        break;
+
+    case "socks":
+        console.log("Jeans are $25");
+        break;
+    default:
+        console.log("Invalid Item")
+}
 
 
 
+   
 //3. Print a random integer (whole number) between 50(inclusive) and 100(exclusive) to the console
 // Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 
 //Write your code below this line:
 
+console.log(Mathrandom(Mathfloor(50<=50 && 100>=100)));
 
 
