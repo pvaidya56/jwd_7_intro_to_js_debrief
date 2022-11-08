@@ -9,12 +9,16 @@
 // Reference Codecademy lessons: Introduction- Arithmetic Opertaors, Conditional Statements lessons 3, 4, 5,and 9
 
 //Write your code for GenBuzz below this line:
-
-
-
-
-
-
+let myNumber = 25;
+if (myNumber.toFixed) {
+    if(myNumber % 3 === 0) {    
+        console.log ('Gen');
+    } else if(myNumber % 5 === 0) {
+            console.log('Buzz');
+    }
+} else { 
+    console.log('This is not a number');
+}
 //2. E-COMMERCE ITEM LIST
 
 // Use a swtich statement to print the price of the each item in the store to the console.
@@ -28,14 +32,30 @@
 // If the variable input is not an item in the store, then print 'Invalid Item' to the console.
 
 //Write your code for the E-Commerce item list below this line:
+let commerceItem ='hat';
 
-
-
+switch(commerceItem) {
+    case 'shoes': 
+        console.log ('shoes = $50');
+        break;
+    case'jeans':
+        console.log('jeans = $25');
+        break;
+    case 'hat' :
+        console.log('hat = $12');
+        break;
+    case 'socks' :
+        console.log('socks = $2');
+    default:
+        console.log('invalid item');
+}
 
 //3. Print a random integer (whole number) between 50(inclusive) and 100(exclusive) to the console
 // Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 
 //Write your code below this line:
+let getRandom = Math.floor(Math.random() * 50) + 50;
 
+console.log(getRandom);
 
 
